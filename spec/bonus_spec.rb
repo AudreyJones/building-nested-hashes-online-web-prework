@@ -8,8 +8,5 @@ describe "#bonus" do
     expect(bonus[:capulet][:heroine][:status]).to eq("dead")
 
   end
-	epic_tragedy[:montague][:hero][:status] = "dead"
-	epic_tragedy[:capulet][:heroine][:status] = "dead"
-	# epic_tragedy
-# binding.pry
+
 end
