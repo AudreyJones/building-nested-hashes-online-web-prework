@@ -7,7 +7,8 @@ describe "#bonus" do
     expect(bonus[:montague][:hero][:status]).to eq("dead")
     expect(bonus[:capulet][:heroine][:status]).to eq("dead")
 
-epic_tragedy[:montague][:hero][:status] = "dead"
-epic_tragedy[:capulet][:heroine][:status] = "dead"
   end
+	epic_tragedy[:montague][:hero][:status] = "dead"
+	epic_tragedy[:capulet][:heroine][:status] = "dead"
+	epic_tragedy
 end
